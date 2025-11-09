@@ -1,0 +1,19 @@
+# Данные с пропусками/выбросами (если хранятся локально)
+raw_data/
+filtered_data/
+
+# Промежуточные CSV/Excel-файлы
+*.csv
+*.xlsx
+
+# Если есть временные датасеты
+temp_dataset.csv
+processed_data.pkl
+
+# Журналы обработки
+logs/
+*.log
+
+# Личные заметки
+notes.txt
+todo.md
