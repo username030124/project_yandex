@@ -10,13 +10,30 @@ filtered_data/
 temp_dataset.csv
 processed_data.pkl
 
-# Журналы обработки
-logs/
-*.log
-
 # Личные заметки
 notes.txt
 todo.md
 
-# Чувстительные файлы
-.env
+# Виртуальное окружение
+env/
+venv/
+*.env
+*.pyenv
+
+# Файлы для кеширования
+__pycache__/
+*.py[cod]
+
+# Файлы среды разработки
+.idea/
+.vscode/
+*.iml
+
+# Логи и временные файлы
+logs/
+*.log
+*.bak
+*.swp
+
+# Системные файлы
+Thumbs.db  # Windows
